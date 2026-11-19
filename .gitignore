@@ -1,0 +1,13 @@
+
+# Java compiled files
+*.class
+
+# Eclipse generated output
+bin/
+
+# Maven generated output
+target/
+
+# IDE files
+.metadata/
+Servers/
