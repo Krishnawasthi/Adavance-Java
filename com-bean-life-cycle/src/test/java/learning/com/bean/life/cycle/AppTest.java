@@ -1,4 +1,4 @@
-package Learning.bean.life.cycle;
+package learning.com.bean.life.cycle;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
