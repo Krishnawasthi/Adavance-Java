@@ -1,4 +1,4 @@
-package finance.bean.life.cycle;
+package Learning.bean.life.cycle;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
