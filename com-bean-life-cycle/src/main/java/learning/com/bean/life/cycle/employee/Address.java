@@ -8,7 +8,7 @@ public class Address {
 	String state;
 	
 	
-	public String empAddress() {
+	public String empAddress(){
 		return "Address [line1=" + line1 + ", line2=" + line2 + ", city=" + city + ", state=" + state + "]";
 	}
 

@@ -9,13 +9,16 @@ import learning.com.bean.life.cycle.employee.Employee;
 @Configuration
 public class SpringConifg {
 	
+	@Bean
+	public Address empAddress1() {
+		 
+		return new Address("reddy pg", "btm layout","bengaluru", "karnataka");
+		
+	}
 	
-	@Bean("emp1")
+	@Bean
 	public Employee empData() {
-		
-		
-		Address address = new Address("reddy pg", "btm layout","bengaluru", "karnataka");
-		Employee emp = new  Employee("krishna","km@121",2342424, address);
+		Employee emp = new Employee();
 		return emp;
 		
 	}
