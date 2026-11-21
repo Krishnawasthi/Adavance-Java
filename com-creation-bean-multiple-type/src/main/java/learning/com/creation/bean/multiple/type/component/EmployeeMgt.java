@@ -1,6 +1,7 @@
 package learning.com.creation.bean.multiple.type.component;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import learning.com.creation.bean.multiple.type.employee.Employee;
@@ -9,13 +10,11 @@ import learning.com.creation.bean.multiple.type.employee.Employee;
 public class EmployeeMgt {
 	
 	@Autowired //Automatically injects a matching Spring bean into a dependency.
+	@Qualifier("emp1")
 	 Employee employee;
 	
 	public void empMGTDetails() {
 		
-		System.out.println("EmployeeMgt.empMGTDetails()------------Start");
 		employee.empDetails();
-		System.out.println("EmployeeMgt.empMGTDetails()------------End");
 	}
-
 }

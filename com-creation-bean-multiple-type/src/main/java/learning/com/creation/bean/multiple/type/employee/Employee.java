@@ -17,12 +17,12 @@ public class Employee {
   
   public void empDetails() {
 	  
-	  System.out.println("Employee.empDetails().........Start");
+	  
 	  System.out.println(firstName);
 	  System.out.println(lastName);
 	  System.out.println(empId);
 	  System.out.println(salary);
-	  System.out.println("Employee.empDetails().........End");
+	  
   }
     
 }
