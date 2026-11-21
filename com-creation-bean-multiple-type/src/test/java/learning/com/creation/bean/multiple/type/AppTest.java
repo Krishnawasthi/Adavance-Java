@@ -1,4 +1,4 @@
-package learning.com.bean.life.cycle;
+package learning.com.creation.bean.multiple.type;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

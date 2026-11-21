@@ -8,7 +8,8 @@ public class Employee {
 	String id;
 	double salary;
 	
-	@Autowired
+	@Autowired //this is field injection (reflection APIs)
+	//REFLECTION is nothing but the ability to read the private member of the class
 	Address address;
 	
 	
