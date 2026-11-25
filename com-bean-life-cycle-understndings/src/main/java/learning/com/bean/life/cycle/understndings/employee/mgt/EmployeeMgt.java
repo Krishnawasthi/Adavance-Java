@@ -11,7 +11,6 @@ import learning.com.bean.life.cycle.understndings.employee.Employee;
 public class EmployeeMgt {
   
 	@Autowired 
-	
 	Employee employee;  //scope prototype
 	
 	
