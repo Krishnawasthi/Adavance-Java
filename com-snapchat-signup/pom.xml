@@ -8,6 +8,13 @@
   <name>com-snapchat-signup Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>6.2.18</version>
+</dependency> 
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
